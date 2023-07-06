@@ -1,0 +1,40 @@
+.inp-field-component{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    color: var(--Marine-blue);
+}
+
+.text-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+
+.inp-field-component > input {
+    padding: 10px;
+    margin: 5px 0px 0px 0px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid var(--Light-gray);
+    font-weight: bold;
+    color: var(--Marine-blue);
+
+}
+
+.inp-field-component > input::placeholder {
+    color: var(--Cool-gray);
+}
+
+.title {
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.reqd {
+    color: var(--Strawberry-red);
+    font-weight: 800;
+    font-size: 0.7rem;
+}
